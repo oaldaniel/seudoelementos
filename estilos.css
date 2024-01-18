@@ -1,0 +1,11 @@
+/*p::first-line{font-size: 2em;}*/
+
+p.parrafo2::first-line{font-size: 2em;}
+
+p.parrafo3::first-letter{font-size: 3em}
+
+p::before{content: "leer:"; color: red; font-weight: bold;}
+
+li::before{content:url("img/icono.jpg"); width: 10px;}
+
+div.fondo{background-image: url("img/gota.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
